@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebha</title>
+    <script src="./counter.js"></script>
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <div>
+    <h1 style="text-align: center;">SEBHA</h1>
+    <button onclick="Incrementby1(this)">Click me to increment</button>
+</div>
+    <script>
+        let result = 0;
+        function Incrementby1(id){
+        result+=1
+            id.innerHTML=result;
+        
+        }
+    </script>
+</body>
+</html>
